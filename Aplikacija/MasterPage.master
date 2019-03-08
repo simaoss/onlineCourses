@@ -1,0 +1,68 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+        }
+        .style2
+        {
+            width: 165px;
+            height: 80px;
+        }
+        .style3
+        {
+            width: 170px;
+        }
+        .style4
+        {
+            font-family: cursive;
+            text-align: center;
+        }
+        .style5
+        {
+            color: #FF6600;
+            text-align: left;
+        }
+        .style6
+        {
+            background-color: #FFFFFF;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+
+        &nbsp;<table class="style1">
+            <tr>
+                <td class="style3">
+                    <img alt="Seminari_Algebra"class="style2" src="algebra-varazdin.jpg" /></td>
+                <td class="style4">
+                    <h1 class="style5">
+                        <em><span class="style6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Algebra seminari</span></em></h1>
+                </td>
+            </tr>
+            <tr>
+                <td class="style3">
+                    &nbsp;</td>
+                <td class="style4">
+                    &nbsp;</td>
+            </tr>
+            </table>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
+
